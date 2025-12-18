@@ -1,55 +1,138 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Constitution
 
-## Core Principles
+## 1. Purpose
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+This constitution defines the governing principles, scope, standards, and constraints for creating a **spec-driven book** on **Physical AI and Humanoid Robotics**, authored with AI assistance, built using **Docusaurus**, and deployed to **GitHub Pages**. It ensures technical rigor, ethical responsibility, reproducibility, and long-term maintainability.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+## 2. Audience
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+* Researchers and graduate students in robotics, AI, and embodied intelligence
+* Engineers and practitioners building physical AI systems
+* Product leaders and policymakers seeking technical grounding
+* Advanced learners transitioning from software AI to robotics
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+## 3. Scope
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+The book SHALL cover:
 
-### [PRINCIPLE_6_NAME]
+* Foundations of Physical AI (embodiment, perception-action loops)
+* Humanoid robot morphology and design trade-offs
+* Learning paradigms (RL, IL, foundation models, world models)
+* Control, planning, and locomotion
+* Sensing, manipulation, and human–robot interaction
+* Simulation-to-reality (Sim2Real)
+* Safety, ethics, and societal impact
+* Real-world case studies and benchmarks
 
+The book SHALL NOT:
 
-[PRINCIPLE__DESCRIPTION]
+* Serve as a step-by-step hardware assembly manual
+* Promote unsafe, unethical, or non-compliant robotic practices
+* Focus exclusively on fictional or speculative robotics without grounding
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## 4. Guiding Principles
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### 4.1 Spec-Driven Development
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+* Every chapter MUST begin with a **Specification**:
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+  * Objectives
+  * Assumptions
+  * Definitions
+  * Non-goals
+  * Evaluation criteria
+* Content SHALL trace back to these specs.
 
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+### 4.2 Technical Accuracy
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+* Claims MUST be falsifiable, referenced, or clearly labeled as hypotheses.
+* Mathematical formulations and algorithms SHOULD be precise and reproducible.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+### 4.3 Layered Abstraction
+
+* Concepts SHALL be introduced from first principles and built upward.
+* Each chapter SHOULD include:
+
+  * Intuition
+  * Formalism
+  * Practical implications
+
+### 4.4 Open Science & Reproducibility
+
+* Prefer open datasets, benchmarks, and open-source tools.
+* Code examples SHOULD be minimal, illustrative, and reproducible.
+
+### 4.5 Modularity
+
+* Chapters MUST be self-contained where possible.
+* Cross-references SHOULD be explicit and intentional.
+
+## 5. Ethical & Safety Commitments
+
+* Safety-critical topics MUST include risk analysis and mitigations.
+* Dual-use concerns MUST be acknowledged.
+* Human dignity, autonomy, and privacy SHALL be respected.
+* The book SHALL avoid normalizing surveillance, coercion, or weaponization.
+
+## 6. Writing Standards
+
+* Tone: precise, neutral, and intellectually honest
+* Avoid hype; clearly distinguish current capability vs. aspiration
+* Use diagrams, tables, and figures where clarity improves
+* Define all acronyms on first use
+
+## 7. AI Authorship & Attribution
+
+* AI assistance SHALL be treated as a co-authoring tool, not an authority.
+* Human editorial oversight is REQUIRED for:
+
+  * Technical correctness
+  * Ethical judgment
+  * Final acceptance of content
+* Known limitations of AI-generated content SHOULD be disclosed.
+
+## 8. Structure & Navigation (Docusaurus)
+
+* The book SHALL be organized into:
+
+  * Introduction
+  * Foundations
+  * Core Systems
+  * Learning & Intelligence
+  * Embodiment & Interaction
+  * Deployment & Society
+  * Future Directions
+* Each chapter SHALL map to a Docusaurus doc page.
+* Sidebar navigation MUST reflect conceptual progression.
+
+## 9. Versioning & Maintenance
+
+* Content SHALL be versioned via Git.
+* Breaking conceptual changes MUST be documented.
+* A changelog SHOULD be maintained.
+
+## 10. Deployment Requirements
+
+* The book MUST:
+
+  * Build cleanly with Docusaurus
+  * Deploy via GitHub Pages
+  * Remain accessible without proprietary dependencies
+
+## 11. Evaluation Criteria
+
+Success of the book SHALL be measured by:
+
+* Technical accuracy and clarity
+* Reproducibility of examples
+* Community adoption and citation
+* Longevity and ease of maintenance
+
+## 12. Amendments
+
+* This constitution MAY be amended with clear justification.
+* Amendments MUST preserve the core principles of rigor, safety, and openness.
+
+---
+
+*This constitution serves as the binding specification for all current and future content in the Physical AI & Humanoid Robotics book.*

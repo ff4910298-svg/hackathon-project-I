@@ -1,0 +1,48 @@
+/**
+ * Global custom styles (Dark Mode Only)
+ */
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =====================
+   Dark Theme Variables
+===================== */
+:root {
+  /* Brand Colors */
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #e0f2fe;
+
+  /* Backgrounds */
+  --ifm-background-color: #020617;
+  --ifm-background-surface-color: #0f172a;
+
+  /* Typography */
+  --ifm-font-color-base: #e5e7eb;
+  --ifm-heading-color: #f8fafc;
+
+  /* Links */
+  --ifm-link-color: #93c5fd;
+  --ifm-link-hover-color: #bfdbfe;
+
+  /* Code */
+  /* --docusaurus-highlighted-code-line-bg: rgba(96, 165, 250, 0.18); */
+}
+
+/* Navbar */
+.navbar {
+  background:transparent;
+}
+
+/* Cards */
+.card {
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
+}
