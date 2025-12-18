@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Authoring the future of embodied intelligence with AI assistance.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://ff4910298-svg.github.io',
+  url: 'https://ff4910298-svg.github.io/',
   baseUrl: '/hackathon-project-I/',
 
   organizationName: 'ff4910298-svg',
@@ -55,7 +55,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/ff4910298-svg/hackathon-project-I',
+          href: 'https://github.com/ff4910298-svg/hackathon-project-I/',
           label: 'GitHub',
           position: 'right',
         },
@@ -87,7 +87,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ff4910298-svg/hackathon-project-I',
+              href: 'https://github.com/ff4910298-svg/hackathon-project-I/',
             },
           ],
         },
