@@ -7,11 +7,11 @@ const config: Config = {
   tagline: 'Authoring the future of embodied intelligence with AI assistance.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-organization.github.io',
-  baseUrl: '/',
+  url: 'https://ff4910298-svg.github.io',
+  baseUrl: '/hackathon-project-I/',
 
-  organizationName: 'your-organization',
-  projectName: 'physical-ai-humanoid-robotics-book',
+  organizationName: 'ff4910298-svg',
+  projectName: 'hackathon-project-I',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +28,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/your-organization/your-project-name/tree/main/frontend/',
+            'https://github.com/ff4910298-svg/hackathon-project-I/tree/main/frontend/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -55,7 +55,7 @@ const config: Config = {
           label: 'Book',
         },
         {
-          href: 'https://github.com/your-organization/your-project-name',
+          href: 'https://github.com/ff4910298-svg/hackathon-project-I',
           label: 'GitHub',
           position: 'right',
         },
@@ -87,7 +87,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-organization/your-project-name',
+              href: 'https://github.com/ff4910298-svg/hackathon-project-I',
             },
           ],
         },
